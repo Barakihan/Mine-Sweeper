@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+button {
+    cursor: pointer;
+}
+
+.difficulties {
+    cursor: pointer;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-style: solid;
+    cursor: pointer;
+    margin: 10px;
+}
